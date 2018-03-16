@@ -26,7 +26,6 @@ describe('Age', function(){
   it('should return user venusian age', function(){
     //arrange             //act
     let userVenus = userAge.userVenus();
-    console.log(userVenus);
     //assert
     expect(userVenus).toBe((userAge.year / .62));
   });
@@ -35,9 +34,15 @@ describe('Age', function(){
   it('should return user martian age', function(){
     //arrange             //act
     let userMars = userAge.userMars();
-    console.log(userMars);
     //assert
     expect(userMars).toBe((userAge.year / 1.88));
+  });
+
+  it('should return user jupiterian age', function(){
+    //arrange             //act
+    let userJupiter = userAge.userJupiter();
+    //assert
+    expect(userJupiter).toBe((userAge.year / 1.88));
   });
 
 })
