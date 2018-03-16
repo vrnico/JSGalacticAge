@@ -41,8 +41,9 @@ describe('Age', function(){
   it('should return user jupiterian age', function(){
     //arrange             //act
     let userJupiter = userAge.userJupiter();
+    console.log(userJupiter);
     //assert
-    expect(userJupiter).toBe((userAge.year / 1.88));
+    expect(userJupiter).toBe((userAge.year / 11.86));
   });
 
 })
