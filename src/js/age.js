@@ -5,6 +5,7 @@ export class Age{
     this.today = new Date().getTime();
     this.age = Math.floor((this.today - this.formattedDate)) / 1000 ;
     this.year = ((this.age/31536000)) ;
+    this.lifeExp = 80 - this.year;
   }
 
   userMerc(){
@@ -21,6 +22,12 @@ export class Age{
 
   userJupiter(){
     return (this.year / 11.86);
+  }
+
+  userLifeExp(){
+    if(this.year < 80){
+      let mercLife = year.userMerc;
+    }
   }
 
 };

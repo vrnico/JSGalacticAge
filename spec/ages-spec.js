@@ -38,12 +38,24 @@ describe('Age', function(){
     expect(userMars).toBe((userAge.year / 1.88));
   });
 
+  //test 5
   it('should return user jupiterian age', function(){
     //arrange             //act
     let userJupiter = userAge.userJupiter();
-    console.log(userJupiter);
+    console.log(userJupiter)
     //assert
     expect(userJupiter).toBe((userAge.year / 11.86));
   });
+
+  //test 6
+  it('should return user remaining years', function(){
+    //arrange             //act
+    let lifeExp = userAge.lifeExp;
+    console.log(lifeExp)
+    //assert
+    expect(lifeExp).toBe((<53.20113745611364));
+  });
+
+
 
 })
