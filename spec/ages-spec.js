@@ -55,13 +55,14 @@ describe('Age', function(){
     //literally counting the seconds until my death
   });
 
+  //test 7
   it('should return user remaining years on mercury', function(){
     //arrange             //act
     let mercAge = userAge.mercAge;
     console.log(mercAge)
     //assert
-    expect(lifeExp).toBeLessThan(53.20113745611364);
-    //literally counting the seconds until my death
+    expect(lifeExp).toBeLessThan(221.67121424020698);
+
   });
 
 
