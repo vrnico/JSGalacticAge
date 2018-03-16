@@ -15,4 +15,8 @@ export class Age{
     return (this.year / .62);
   }
 
+  userMars(){
+    return (this.year / 1.88);
+  }
+
 };

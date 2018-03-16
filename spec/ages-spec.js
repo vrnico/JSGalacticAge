@@ -31,4 +31,13 @@ describe('Age', function(){
     expect(userVenus).toBe((userAge.year / .62));
   });
 
+  //test 4
+  it('should return user martian age', function(){
+    //arrange             //act
+    let userMars = userAge.userMars();
+    console.log(userMars);
+    //assert
+    expect(userMars).toBe((userAge.year / .62));
+  });
+
 })
