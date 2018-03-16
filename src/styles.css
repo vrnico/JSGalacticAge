@@ -2,3 +2,7 @@
 body {
   background-color: #7FDBFF;
 }
+
+#output {
+  display: none;
+}

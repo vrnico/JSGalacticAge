@@ -12,6 +12,12 @@ export class Age{
     this.jupiterAge = this.lifeExp / 11.86;
   }
 
+    formatDate(){
+
+
+    }
+
+
   userMerc(){
     return (this.year / .24);
   }
@@ -28,9 +34,5 @@ export class Age{
     return (this.year / 11.86);
   }
 
-  userLifeExp(){
-    if(this.year > 80){
-    }
-  }
 
 };

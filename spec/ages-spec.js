@@ -87,10 +87,10 @@ describe('Age', function(){
   //test 9
   it('should return user remaining years on jupiter', function(){
     //arrange             //act
-    let jupiterAge = userAge.marsAge;
+    let jupiterAge = userAge.jupiterAge;
     console.log(jupiterAge);
     //assert
-    expect(jupiterAge).toBeLessThan(20);
+    expect(jupiterAge).toBeLessThan(4.485755464022273);
 
   });
 

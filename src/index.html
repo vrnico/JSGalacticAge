@@ -2,18 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>JSTemplate</title>
+    <title>Galactic Age</title>
   </head>
   <body>
-    <form id='name-form' class='form-control'>
-      <label for='name'>YOUR NAME:</label>
-      <input type='text' id='name'></input>
-      <button type='submit' class-'btn btn-lg btn-danger'>SUBMIT</button>
-    </form>
+    <form id="date-form" class="form-control">
+         <label for="birthdate">Enter your birthday:</label>
+         <input type="date" id="birthdate" name="birthDate"></input>
+         <button type="submit" class="btn btn-lg">SUBMIT</button>
+       </form>
 
 
-    <div class="output">
-    <h1></h1>
+    <div id="output">
+    <h1>your earth birthday is <span id ='userBirthdate'></span></h1>
+    <h2>you are <span id ='userYears'></span> years old!</h2>
   </div>
   </body>
 </html>
