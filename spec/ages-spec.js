@@ -70,7 +70,7 @@ describe('Age', function(){
     //arrange             //act
     let venusAge = userAge.venusAge;
     //assert
-    expect(lifeExp).toBeLessThan();
+    expect(lifeExp).toBeLessThan(85.80819894836009);
 
   });
 
