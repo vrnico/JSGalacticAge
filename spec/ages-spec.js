@@ -28,7 +28,7 @@ describe('Age', function(){
     let userVenus = userAge.userVenus();
     console.log(userVenus);
     //assert
-    expect(userVenus).toBe((userAge.year / .24));
+    expect(userVenus).toBe((userAge.year / .62));
   });
 
 })
