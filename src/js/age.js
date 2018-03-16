@@ -6,6 +6,10 @@ export class Age{
     this.age = Math.floor((this.today - this.formattedDate)) / 1000 ;
     this.year = ((this.age/31536000)) ;
     this.lifeExp = 80 - this.year;
+    this.mercAge = this.lifeExp / .24;
+    this.venusAge = this.lifeExp / .62;
+    this.marsAge = this.lifeExp / 1.88;
+    this.jupiterAge = this.lifeExp / 11.86;
   }
 
   userMerc(){
@@ -25,8 +29,7 @@ export class Age{
   }
 
   userLifeExp(){
-    if(this.year < 80){
-      let mercLife = year.userMerc;
+    if(this.year > 80){
     }
   }
 

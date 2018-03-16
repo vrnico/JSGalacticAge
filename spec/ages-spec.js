@@ -42,7 +42,6 @@ describe('Age', function(){
   it('should return user jupiterian age', function(){
     //arrange             //act
     let userJupiter = userAge.userJupiter();
-    console.log(userJupiter)
     //assert
     expect(userJupiter).toBe((userAge.year / 11.86));
   });
@@ -51,10 +50,21 @@ describe('Age', function(){
   it('should return user remaining years', function(){
     //arrange             //act
     let lifeExp = userAge.lifeExp;
-    console.log(lifeExp)
     //assert
-    expect(lifeExp).toBe((<53.20113745611364));
+    expect(lifeExp).toBeLessThan(53.20113745611364);
+    //literally counting the seconds until my death
   });
+
+  it('should return user remaining years on mercury', function(){
+    //arrange             //act
+    let mercAge = userAge.mercAge;
+    console.log(mercAge)
+    //assert
+    expect(lifeExp).toBeLessThan(53.20113745611364);
+    //literally counting the seconds until my death
+  });
+
+
 
 
 
