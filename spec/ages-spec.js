@@ -13,7 +13,7 @@ describe('Age', function(){
     let ageInSeconds = userAge.secondsSince();
     console.log(ageInSeconds);
 
-    expect(ageInSeconds).toBe(1521227240);
+    expect(ageInSeconds).toBeGreaterThan(1521227240);
   });
 
 })
