@@ -16,11 +16,19 @@ describe('Age', function(){
   });
   //test 2
   it('should return user mercurian age', function(){
-    //arrange
+    //arrange             //act
     let userMerc = userAge.userMerc();
-    console.log(userAge.year)
-    console.log(userMerc)
+    //assert
     expect(userMerc).toBe((userAge.year / .24));
+  });
+
+  //test 3
+  it('should return user venusian age', function(){
+    //arrange             //act
+    let userVenus = userAge.userVenus();
+    console.log(userVenus);
+    //assert
+    expect(userVenus).toBe((userAge.year / .24));
   });
 
 })

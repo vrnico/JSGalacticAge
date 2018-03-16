@@ -11,4 +11,8 @@ export class Age{
     return (this.year / .24);
   }
 
+  userVenus(){
+    return (this.year / .62);
+  }
+
 };
