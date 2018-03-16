@@ -9,11 +9,7 @@ describe('Age', function(){
   });
 
   it('should create user age, and convert it to seconds', function(){
-
-    let ageInSeconds = userAge.secondsSince();
-    console.log(ageInSeconds);
-
-    expect(ageInSeconds).toBeGreaterThan(1521227240);
+    expect(userAge.age).toBeGreaterThan(845123787);
   });
 
 })

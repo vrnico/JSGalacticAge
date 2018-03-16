@@ -1,9 +1,9 @@
 export class Age{
   constructor(birthDate){
     this.birthDate = birthDate;
-    this.formattedDate = new Date(this.birthDate).getTime() / 1000;
-    this.today = new Date().getTime() / 1000;
-    this.age = Math.floor((this.day - this.birthday) / 31622400);
+    this.formattedDate = new Date(this.birthDate).getTime();
+    this.today = new Date().getTime();
+    this.age = Math.floor((this.today - this.formattedDate)) / 1000 ;
   }
 
 secondsSince() {
