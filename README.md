@@ -6,7 +6,7 @@ Galactic Age Calculator
 
 #### Description
 
-Galactic Age Calculator is a fun way for users to find out their planetary age on the inner planets! The user enters their birthday, and the calculator determines their new age based off the solar returns of 5 different planets! 
+Galactic Age Calculator is a fun way for users to find out their planetary age on the inner planets! The user enters their birthday, and the calculator determines their new age based off the solar returns of 5 different planets!
 
 ## Installation
 
@@ -43,31 +43,27 @@ npm run start
 | ------------- |:-------------:|
 | 10     | **315360000 Seconds** |
 
-2. #### Takes two dates and provides the difference (in seconds) between them.
 
-| Input      | Output           |
-| ------------- |:-------------:|
-| 06/05/1991 - 03/16/2018    | **845078400 seconds** |
 
-3. #### Return user's age in Mercurian Years based on birthdate
+2. #### Return user's age in Mercurian Years based on birthdate
 
 | Input      | Output           |
 | ------------- |:-------------:|
 | 06/05/1991     | **111 Mercury years** |
 
-4. #### Return user's age in Venusian Years based on birthdate
+3. #### Return user's age in Venusian Years based on birthdate
 
 | Input      | Output           |
 | ------------- |:-------------:|
 | 06/05/1991     | **43 Venus years** |
 
-5. #### Return user's age in Martian Years based on birthdate
+4. #### Return user's age in Martian Years based on birthdate
 
 | Input      | Output           |
 | ------------- |:-------------:|
 | 06/05/1991     | **14 Martian years** |
 
-6. #### Return user's age in Jupiterian Years based on birthdate
+5. #### Return user's age in Jupiterian Years based on birthdate
 
 | Input      | Output           |
 | ------------- |:-------------:|
@@ -83,7 +79,7 @@ npm run start
 |     |  **Earth Years Left: 53**  |
 |    |  **Jupiterian Years Left: 77**  |
 
-6. #### If a user has already surpassed the avg life expectancy, return number of years they have lived past the life expectancy
+7. #### If a user has already surpassed the avg life expectancy, return number of years they have lived past the life expectancy
 | Input      | Output           |
 | ------------- |:-------------:|
 | 06/05/1991     |  **Mercurian Years Past Life Expectancy of 79 years: 32**  
