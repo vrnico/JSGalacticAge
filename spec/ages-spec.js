@@ -65,6 +65,21 @@ describe('Age', function(){
 
   });
 
+  //test 8
+  it('should return user remaining years on venus', function(){
+    //arrange             //act
+    let venusAge = userAge.venusAge;
+    //assert
+    expect(lifeExp).toBeLessThan();
+
+  });
+
+  //venus 85.80819894836009
+  //
+  //
+  //
+  //
+
 
 
 
