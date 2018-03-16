@@ -61,7 +61,7 @@ describe('Age', function(){
     let mercAge = userAge.mercAge;
     console.log(mercAge)
     //assert
-    expect(lifeExp).toBeLessThan(221.67121424020698);
+    expect(mercAge).toBeLessThan(221.67121424020698);
 
   });
 
@@ -70,12 +70,22 @@ describe('Age', function(){
     //arrange             //act
     let venusAge = userAge.venusAge;
     //assert
-    expect(lifeExp).toBeLessThan(85.80819894836009);
+    expect(venusAge).toBeLessThan(85.80819894836009);
+
+  });
+
+  //test 9
+  it('should return user remaining years on mars', function(){
+    //arrange             //act
+    let marsAge = userAge.marsAge;
+    console.log(marsAge);
+    //assert
+    expect(marsAge).toBeLessThan(885.80819894836009);
 
   });
 
   //venus 85.80819894836009
-  //
+  //mars 28.29844507239953
   //
   //
   //
