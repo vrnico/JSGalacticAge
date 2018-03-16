@@ -90,7 +90,7 @@ describe('Age', function(){
     let jupiterAge = userAge.marsAge;
     console.log(jupiterAge);
     //assert
-    expect(jupiterAge).toBeLessThan(-1000);
+    expect(jupiterAge).toBeLessThan(20);
 
   });
 
