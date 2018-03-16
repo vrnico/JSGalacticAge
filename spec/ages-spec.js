@@ -37,7 +37,7 @@ describe('Age', function(){
     let userMars = userAge.userMars();
     console.log(userMars);
     //assert
-    expect(userMars).toBe((userAge.year / .62));
+    expect(userMars).toBe((userAge.year / 1.88));
   });
 
 })
