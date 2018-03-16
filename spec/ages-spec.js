@@ -20,7 +20,7 @@ describe('Age', function(){
     let userMerc = userAge.userMerc();
     console.log(userAge.year)
     console.log(userMerc)
-    expect(userMerc).toBe((userAge.year / .20));
+    expect(userMerc).toBe((userAge.year / .24));
   });
 
 })
