@@ -15,3 +15,7 @@ body {
 .planet {
   margin-left: 2em;
 }
+
+.life {
+  color: red;
+}

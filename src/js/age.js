@@ -12,10 +12,6 @@ export class Age{
     this.jupiterAge = this.lifeExp / 11.86;
   }
 
-    formatDate(){
-
-
-    }
 
 
   userMerc(){
