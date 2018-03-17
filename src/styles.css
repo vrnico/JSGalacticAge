@@ -6,3 +6,12 @@ body {
 #output {
   display: none;
 }
+
+.list-group {
+  margin-left: 3em;
+  list-style: none;
+}
+
+.planet {
+  margin-left: 2em;
+}

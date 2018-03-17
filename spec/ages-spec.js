@@ -59,7 +59,6 @@ describe('Age', function(){
   it('should return user remaining years on mercury', function(){
     //arrange             //act
     let mercAge = userAge.mercAge;
-    console.log(mercAge)
     //assert
     expect(mercAge).toBeLessThan(221.67121424020698);
 
@@ -78,7 +77,6 @@ describe('Age', function(){
   it('should return user remaining years on mars', function(){
     //arrange             //act
     let marsAge = userAge.marsAge;
-    console.log(marsAge);
     //assert
     expect(marsAge).toBeLessThan(28.29844507239953);
 
@@ -88,7 +86,6 @@ describe('Age', function(){
   it('should return user remaining years on jupiter', function(){
     //arrange             //act
     let jupiterAge = userAge.jupiterAge;
-    console.log(jupiterAge);
     //assert
     expect(jupiterAge).toBeLessThan(4.485755464022273);
 
