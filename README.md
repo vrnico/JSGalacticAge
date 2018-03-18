@@ -35,6 +35,11 @@ Launch the site from the project directory:
 npm run start
 ```
 
+If you are building this program using Windows add the line below into your package.json under start
+```sh
+"start": **"webpack --mode development && webpack-dev-server --open --mode development"**,
+```
+
 ## Specifications
 
 1. #### Takes a users age and converts it to seconds
